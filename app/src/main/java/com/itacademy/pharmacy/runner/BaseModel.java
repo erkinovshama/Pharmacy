@@ -1,9 +1,11 @@
 package com.itacademy.pharmacy.runner;
 
-import com.itacademy.pharmacy.WebDriver;
-import com.itacademy.pharmacy.interactions.Actions;
-import com.itacademy.pharmacy.support.PageFactory;
-import com.itacademy.pharmacy.support.ui.WebDriverWait;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public class BaseModel {
     protected WebDriver driver;
@@ -24,17 +26,17 @@ public class BaseModel {
     }
 
     protected Actions getActions() {
-        if(actions == null) {
+        if (actions == null) {
             actions = new Actions(driver);
         }
 
         return actions;
     }
+
     public BaseModel(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(getDriver(), this);
     }
-
 
 
 }

@@ -1,15 +1,14 @@
 package com.itacademy.pharmacy.model;
 
-import com.itacademy.pharmacy.By;
-import com.itacademy.pharmacy.WebDriver;
-import com.itacademy.pharmacy.WebElement;
-import com.itacademy.pharmacy.support.FindBy;
-import com.itacademy.pharmacy.runner.BaseModel;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 public class StartPage extends BasePage {
 
 
-    @FindBy(linkText = "Акції")
+    @FindBy(linkText = "Акции")
     private WebElement akcii;
 
     @FindBy(id = "input-search")
@@ -34,10 +33,10 @@ public class StartPage extends BasePage {
         super(driver);
     }
 
-    public AkciiPage clickAkcii() {
+    public PromotionsPage clickAkcii() {
         akcii.click();
 
-        return new AkciiPage(getDriver());
+        return new PromotionsPage(getDriver());
     }
 
     public StartPage inputSearch(String input) {

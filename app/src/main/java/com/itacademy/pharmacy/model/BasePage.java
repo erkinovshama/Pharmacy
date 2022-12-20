@@ -1,6 +1,6 @@
 package com.itacademy.pharmacy.model;
 
-import com.itacademy.pharmacy.WebDriver;
+import org.openqa.selenium.WebDriver;
 import com.itacademy.pharmacy.runner.BaseModel;
 
 public class BasePage extends BaseModel {

@@ -2,10 +2,7 @@ package com.itacademy.pharmacy.tests;
 
 
 import com.itacademy.pharmacy.model.StartPage;
-import com.itacademy.pharmacy.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Factory;
 import org.testng.annotations.Test;
 import com.itacademy.pharmacy.runner.BaseTest;
 

@@ -1,10 +1,10 @@
 package com.itacademy.pharmacy.runner;
 
 import com.itacademy.pharmacy.model.StartPage;
-import com.itacademy.pharmacy.WebDriver;
-import com.itacademy.pharmacy.interactions.Actions;
-import com.itacademy.pharmacy.support.ui.WebDriverWait;
-import com.itacademy.pharmacy.annotations.*;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.*;
 
 public abstract class BaseTest {
 

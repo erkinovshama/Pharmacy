@@ -1,11 +1,11 @@
 package com.itacademy.pharmacy.runner;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import com.itacademy.pharmacy.WebDriver;
-import com.itacademy.pharmacy.chrome.ChromeDriver;
-import com.itacademy.pharmacy.chrome.ChromeOptions;
-import com.itacademy.pharmacy.remote.BrowserType;
-import com.itacademy.pharmacy.remote.CapabilityType;
+import com.itacademy.pharmacy.wdm.WebDriverManager;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.BrowserType;
+import org.openqa.selenium.remote.CapabilityType;
 
 import java.util.HashMap;
 import java.util.Map;
